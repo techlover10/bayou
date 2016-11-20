@@ -11,11 +11,6 @@ from socket import SOCK_STREAM, socket, AF_INET
 
 address = 'localhost'
 threads = {}
-
-msgs = {}
-
-ack_lock = Lock()
-acked_list = {}
 wait_resp = False
 
 debug = False
